@@ -126,8 +126,65 @@ nav .mainNav .closeMenu {
 }
 
 
-/* For left content */
 .content-left {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-text {
+    color: var(--color-primary);
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.header-text span {
+    color: var(--color-secondary);
+}
+
+.value-prop {
+    margin-top: 3rem;
+}
+
+.value-prop h2 {
+    font-size: 24px;
+    color: var(--color-primary);
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.value-prop ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.value-prop li {
+    color: var(--color-txtcolor);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.getStarted-btn {
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 10px 20px;
+    margin-top: 5rem;
+    color: var(--color-secondary);
+    font-size: 16px;
+}
+
+.getStarted-btn:hover {
+    background-color: #A23C40;
+    color: #FFF;
+}
+
+
+/* For left content */
+/* .content-left {
     flex: 1;
     padding-left: 3rem;
     padding-top: -3rem;
@@ -175,7 +232,7 @@ nav .mainNav .closeMenu {
 .getStarted-btn:hover {
     background-color: #A23C40;
     color: #FFF;
-}
+} */
 
 
 /* For right Image */
