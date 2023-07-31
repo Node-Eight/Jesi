@@ -434,11 +434,12 @@ nav .mainNav .closeMenu {
 
 .about-bg {
     width: 100%;
-    height: 55rem;
+    height: auto;
     top: 2rem;
     background: linear-gradient(315deg, rgba(255, 126, 132, 0.15) 0%, rgba(48, 190, 173, 0.15) 100%);
     margin-top: 2rem;
-    /* transform: rotate(179.848deg); */
+    padding-bottom: 30px;
+   
 }
 
 .content-main {
@@ -454,7 +455,7 @@ nav .mainNav .closeMenu {
 
 .about-content-left .smHeadertxt {
     margin-top: 1rem;
-    /* margin-left: ; */
+ 
 
 
 
@@ -469,7 +470,7 @@ nav .mainNav .closeMenu {
     color: var(--color-txtcolor);
     font-size: 1rem;
     font-weight: 500;
-    line-height: 2.5rem;
+    line-height: 2rem;
     margin-top: 20px;
 }
 
@@ -555,10 +556,10 @@ nav .mainNav .closeMenu {
     display: flex;
 }
 
-.firstImg {
+.firstImg img{
     margin-top: 9rem;
     margin-left: 8rem;
-    width: 28rem;
+    width: 30rem;
     height: 20rem;
     border-radius: 0.6rem;
     object-fit: cover;
@@ -566,11 +567,12 @@ nav .mainNav .closeMenu {
 
 }
 
-.secondImg {
+.secondImg img{
     margin-top: 25rem;
     margin-left: -45rem;
-    width: 28rem;
+    width: 30rem;
     height: 20rem;
+    border-radius: 0.6rem;
 
 }
 
@@ -615,8 +617,26 @@ nav .mainNav .closeMenu {
     color: var(--color-txtcolor);
     font-size: 1rem;
     font-weight: 500;
-    line-height: 2.5rem;
+    line-height: 2rem;
     margin-top: 20px;
+}
+
+.why-prop {
+    margin-top: 5px;
+}
+
+
+.why-prop ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.why-prop li {
+    color: var(--color-txtcolor);
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
 }
 
 
@@ -626,18 +646,14 @@ nav .mainNav .closeMenu {
     position: relative;
 }
 
-.chooseImg {
+.chooseImg img{
     margin-top: 7rem;
     width: 32rem;
     height: 34rem;
     object-fit: cover;
     object-position: center;
-    margin-left: 16rem;
-}
-
-.chooseImg img {
-    margin-left: -6rem;
-
+    margin-left: 8rem;
+    margin-right: 3rem;
 }
 
 
