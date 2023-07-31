@@ -127,7 +127,7 @@ nav .mainNav .closeMenu {
 
 
 .content-left {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -147,7 +147,7 @@ nav .mainNav .closeMenu {
 }
 
 .value-prop h2 {
-    font-size: 24px;
+    font-size: 28px;
     color: var(--color-primary);
     font-weight: 500;
     margin-bottom: 20px;
@@ -195,6 +195,7 @@ nav .mainNav .closeMenu {
     margin-left: 10rem;
 
 }
+
 
 .imgContainer {
     position: relative;
@@ -301,6 +302,7 @@ nav .mainNav .closeMenu {
 
 
 /* Card section */
+
 .courseCard {
     display: flex;
     flex: 1;
@@ -308,21 +310,52 @@ nav .mainNav .closeMenu {
     gap: 2rem;
     margin-top: 3rem;
     justify-content: center;
-
 }
 
+.courseCard .cardContainer {
+    height: 31rem;
+}
+
+.cardContainer .course-description {
+    color: var(--color-primary);
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.cardContainer .course-text {
+    font-weight: 200;
+    margin-top: 10px;
+    text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+
+}
 .cardContainer {
-    /* display: flex; */
-    width: 20rem;
-    height: 26rem;
+    width: 25rem;
+    height: 20rem;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 0px 8px 2px rgba(28, 48, 61, 0.12);
 }
 
+
+
 .tag-btn {
     position: absolute;
     width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    background: var(--color-tertiary);
+    padding: 5px;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    border: none;
+}
+.tag-btn3 {
+    position: absolute;
+    width: 13rem;
     height: 2rem;
     border-radius: 5px;
     background: var(--color-tertiary);
@@ -340,17 +373,10 @@ nav .mainNav .closeMenu {
     padding: 10px;
 }
 
-.cardImg {
 
-    width: 20rem;
-    height: 12rem;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10px 10px 0px 0px;
-}
 
 .cardImg img {
-    width: 20rem;
+    width: 25rem;
 }
 
 .cardContent h4 {
@@ -373,6 +399,9 @@ nav .mainNav .closeMenu {
     justify-content: center;
     cursor: pointer;
     transition: .3s ease all;
+}
+.view-link a{
+    text-decoration: none;
 }
 
 .view-link span {
