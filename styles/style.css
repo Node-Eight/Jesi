@@ -129,7 +129,7 @@ nav .mainNav .closeMenu {
 .content-left {
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding-left: 40px;
 }
 
 .header-text {
@@ -193,6 +193,7 @@ nav .mainNav .closeMenu {
     display: flex;
     padding-top: -2rem;
     margin-left: 10rem;
+    padding-right: 40px;
 
 }
 
@@ -203,6 +204,7 @@ nav .mainNav .closeMenu {
     height: 600px;
     border-radius: 50%;
     overflow: hidden;
+   
 
 }
 
@@ -210,6 +212,7 @@ nav .mainNav .closeMenu {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 
 }
 
@@ -747,21 +750,40 @@ nav .mainNav .closeMenu {
 }
 
 .mainCard .cardContainer {
-    height: 30rem;
+    height: 33rem;
+}
+.cardContainer .card-Img img{
+    margin-top: -2rem;
+    height: 200px;
+    width: 200px;
+    
+}
+.card-Content{
+    margin-top: -40px;
+}
+.card-Content h4{
+        padding: 20px;
+        color: var(--color-txtcolor);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5rem;
+        text-align: left;
 }
 
 .cardContainer .partner-name {
+    padding-left: 20px;
     color: var(--color-primary);
     font-size: 24px;
     font-weight: 300;
+    text-align: center;
 }
 
-.cardContainer .partner-text {
-    text-align: center;
+/* .cardContainer .partner-text {
+    text-align: left;
     font-size: 16px;
     font-weight: 500;
 
-}
+} */
 
 .apply-btn {
     width: 14rem;
@@ -771,7 +793,7 @@ nav .mainNav .closeMenu {
     border-radius: 0.6rem;
     background: var(--color-tertiary);
     border: none;
-    margin-top: 2rem;
+    margin-top: 20px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -945,7 +967,7 @@ nav .mainNav .closeMenu {
 
 .blogCard {
     width: 20rem;
-    height: 30rem;
+    height: 28rem;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 0px 8px 2px rgba(28, 48, 61, 0.12);
@@ -961,7 +983,7 @@ nav .mainNav .closeMenu {
 
 .blog-admin-date {
     display: flex;
-    margin-left: 2rem;
+    margin-left: 10px;
     gap: 6rem;
 }
 
