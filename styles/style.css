@@ -227,12 +227,11 @@ nav .mainNav .closeMenu {
 .courses {
     margin-top: 5rem;
     margin-left: 2rem;
+    margin-right: 2rem;
 
 }
 
-/* .smHeadertxt{
-    
-} */
+
 .smHeadertxt {
     font-size: 1rem;
     font-weight: 500;
@@ -246,13 +245,13 @@ nav .mainNav .closeMenu {
     display: inline-flex;
     align-items: center;
     gap: 12rem;
-    margin-top: 2rem;
+    margin-top: 20px;
 
 }
 
 .headertxt {
     font-size: 34px;
-    flex-direction: column;
+    
 }
 
 .headertxt span {
@@ -261,12 +260,12 @@ nav .mainNav .closeMenu {
 }
 
 
-.bgHeadertxt ul {
+/* .bgHeadertxt ul {
     display: flex;
     align-items: flex-start;
     gap: 3rem;
     list-style: none;
-}
+} */
 
 .tabs {
     display: flex;
@@ -946,14 +945,14 @@ nav .mainNav .closeMenu {
     margin-bottom: 10px;
 }
 
-.headertxt {
+/* .headertxt {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 .headertxt span {
     font-weight: bold;
-}
+} */
 
 .blog-bg {
     width: 100%;

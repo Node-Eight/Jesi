@@ -71,7 +71,7 @@
         width: 100%;
         height: 26rem;
         margin-top: 1rem;
-        background-image: url("../images/img-right.png");
+        background-image: url("../images/heroimg2.jpg");
         background-size: cover;
         background-position: center;
         border-radius: 5px;
@@ -82,11 +82,11 @@
 
     }
 
+
     .sm-hero .text-overlay {
-        /* position: absolute; */
         width: 100%;
         height: 100%;
-        background-color: rgb(0, 0, 0, 0.80);
+        background-color: rgba(0, 0, 0, 0.9);
         display: block;
         justify-content: center;
         align-items: center;
@@ -94,27 +94,28 @@
 
     }
 
-    .sm-hero .animatedTxt {
+    .sm-hero .sm-animatedTxt {
         color: #FF7E84;
     }
 
-    .text-overlay h2 {
-        padding-top: 3rem;
+    .animated h2 {
         color: #FFF;
         text-align: center;
+        padding-top: 20px;
         font-size: 24px;
         font-weight: 500;
-        line-height: 2rem;
+
     }
 
     .text-overlay p {
         padding-top: 2rem;
-        color: rgb(255, 255, 255, 0.50);
-        font-size: .8rem;
-        font-weight: 400;
+        color: #ffffffcc;
+        font-size: 16px;
+        font-weight: 300;
         line-height: 1.5rem;
-        margin-right: 2rem;
-        margin-left: 2rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
     }
 
     .sm-hero button {
@@ -138,12 +139,123 @@
 
     .courses {
         margin-top: 4rem;
-        display: none;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: -10px; */
+    }
+
+
+    .courseCard {
+        flex-wrap: wrap;
+
+        /* justify-content: flex-start; */
+    }
+
+    .smHeadertxt {
+        font-size: 12px;
+        text-align: left;
+
+    }
+
+    .bgHeadertxt {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .tabs {
+        align-items: center;
+        gap: 5px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .tablink {
+        padding: 0 5px;
+    }
+
+    .bgHeadertxt .headertxt {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: -20px;
+
+    }
+
+    .courseCard .cardContainer {
+        height: auto;
+    }
+    .courseCard .cardContainer-sm{
+        height: 25rem;
+    }
+    .cardContent .course-text{
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .cardContainer img {
+        width: 100%;
+        max-width: none;
+    }
+
+    .cta {
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
 
 
+
+
+
+
+
+
+
+
+
+    /* .sm-courses {
+        position: relative;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .sm-CourseCard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .smCardContainer {
+        flex-basis: 48%;
+        margin-bottom: 20px;
+    }
+
+    .smCardImg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sm-courseBtn {
+        display: flex;
+        align-items: center;
+    }
+
+    .sm-courseBtn a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        margin-right: 5px;
+    } */
+
+
+
+    /* 
     .sm-courses {
         position: relative;
         width: 100%;
@@ -215,7 +327,7 @@
         width: .3rem;
         height: .5rem;
         margin-left: 0.3em;
-    }
+    } */
 
     .sm-btn {
         margin-top: 3.5rem;
