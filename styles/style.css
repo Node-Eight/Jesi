@@ -453,7 +453,7 @@ nav .mainNav .closeMenu {
 }
 
 .about-content-left {
-    position: relative;
+    /* position: relative; */
 padding-left: 40px;
     
 }
@@ -471,7 +471,6 @@ padding-left: 40px;
 }
 
 .about-content-left p {
-    width: 50rem;
     color: var(--color-txtcolor);
     font-size: 1rem;
     font-weight: 500;
@@ -526,13 +525,7 @@ padding-left: 40px;
 
 }
 
-.smTitle {
-    color: var(--color-primary);
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 500;
-    margin-left: 1rem;
-}
+
 
 .read-more {
     width: 15rem;
