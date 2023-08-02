@@ -122,7 +122,7 @@
         align-items: center;
     }
 
-    .sm-btn {
+    .btn .sm-btn {
         margin-top: 2rem;
         width: 15rem;
         height: 56px;
