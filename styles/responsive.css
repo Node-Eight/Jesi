@@ -153,7 +153,7 @@
 
     .smHeadertxt {
         font-size: 12px;
-        text-align: left;
+        text-align: center;
 
     }
 
@@ -185,10 +185,12 @@
     .courseCard .cardContainer {
         height: auto;
     }
-    .courseCard .cardContainer-sm{
+
+    .courseCard .cardContainer-sm {
         height: 25rem;
     }
-    .cardContent .course-text{
+
+    .cardContent .course-text {
         font-size: 14px;
         font-weight: 300;
     }
@@ -212,69 +214,53 @@
 
     .content-main {
         align-items: center;
-       
+
     }
 
     .about-content-left {
 
-        padding-left: -40px;
-        margin-right: 10px;
-
-        /* padding-left: 1.5rem; */
+        padding-left: 15px;
     }
 
-    .smHeadertxt {
-        align-items: center;
-        font-size: 12px;
-        margin-left: 5rem;
-        
-    }
-
-    .headertxt {
-        flex-direction: column;
-        width: 100%;
-        color: #1C2E3D;
+    .about-content-left .headertxt {
         text-align: center;
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 2rem;
-
-        margin-left: -.3rem;
-        /* padding: 2rem; */
+        font-size: 18px;
+        font-weight: 600;
+        padding-right: 10px;
+        margin-left: -5px;
 
     }
 
     .about-content-left p {
-        width: 100%;
-        color: rgba(28, 46, 61, 0.50);
+
+        color: #1c2e3d80;
         font-size: 14px;
         font-weight: 400;
         line-height: 1.5rem;
         padding-right: 1rem;
-        /* padding-left: 1rem; */
-        /* text-align: center; */
+        text-align: center;
+
     }
 
 
-    .our-mission {
+    /* .our-mission {
         margin-top: 3rem;
-        /* margin-left: 1.5rem; */
 
-    }
+    }    */
 
-    .our-mission img,
+    /* .our-mission img,
     .our-vision img {
         width: 2rem;
         height: 2rem;
 
-    }
+    } */
 
-    .our-mission .smTitle {
+    /* .our-mission .smTitle {
         font-size: 14px;
         font-weight: bold;
-    }
+    } */
 
-    .our-mission .smText {
+    /* .our-mission .smText {
         width: 100%;
         color: #1c2e3d80;
         font-size: 14px;
@@ -282,11 +268,11 @@
         line-height: 1.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
-    }
+    } */
 
-    .our-vision {
+    .about-content-left .our-vision {
+        /* align-items: center; */
         margin-top: 3rem;
-        /* margin-left: 1.5rem; */
     }
 
     .our-vision .smTitle {
