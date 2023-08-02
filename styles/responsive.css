@@ -379,14 +379,40 @@
     }
 
     /* Our Partners  Section*/
-    .mainCard {
+
+.partner-logos {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.partner-logos img {
+    height: 100px;
+    width: 100px;
+}
+
+.partner-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -5px;
+}
+.partner-text p{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+
+
+    /* .mainCard {
         flex-wrap: wrap;
     }
 
     .our-partners .smHeadertxt {
         text-align: center;
         margin-left: -2px;
-    }
+    } */
 
 
     /* Upcoming Events */
