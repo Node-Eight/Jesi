@@ -67,7 +67,7 @@
     }
 
     .sm-hero {
-        position: relative;
+        /* position: relative; */
         width: 100%;
         height: 26rem;
         margin-top: 1rem;
@@ -75,8 +75,6 @@
         background-size: cover;
         background-position: center;
         border-radius: 5px;
-        justify-content: center;
-        align-items: center;
         display: flex;
 
 
@@ -118,16 +116,20 @@
         text-align: center;
     }
 
-    .sm-hero button {
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .btn .sm-btn {
         margin-top: 2rem;
         width: 15rem;
         height: 56px;
         border-radius: 0.3rem;
         background: #FF7E84;
         color: #fff;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        align-items: center;
         border: none;
         font-size: 16px;
         font-weight: 500;
@@ -200,7 +202,7 @@
         max-width: none;
     }
 
-    .cta {
+    .btn .cta {
         margin-left: auto;
         margin-right: auto;
         height: 56px;
@@ -271,13 +273,14 @@
 
     .our-vision {
         margin-top: 20px;
-        align-items: center;
+        /* align-items: left; */
 
 
     }
 
     .our-vision .grouped {
-        align-items: center;
+
+        
     }
 
     .our-vision img {
@@ -298,6 +301,7 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 1.5rem;
+        
 
     }
 
@@ -336,26 +340,13 @@
     }
 
     .why-choose-content-left {
-        margin-left: 1rem;
-    }
-
-    .why-choose-content-left .smHeadertxt {
-        margin-left: -3rem;
-        text-align: center;
-
-
-
+        margin-left: 20px;
     }
 
     .why-choose-content-left .headertxt {
-        margin: 0;
-        font-size: 24px;
-        width: 18.5rem;
-        height: 5rem;
-        justify-content: center;
-        margin-top: 1rem;
-        padding-left: -3rem;
-        padding-right: 3rem;
+
+        font-size: 18px;
+        margin-top: 10px;
         text-align: center;
     }
 
@@ -380,6 +371,11 @@
 
     .why-choose-content-right {
         display: none;
+    }
+
+    .btn {
+        align-items: center;
+        justify-content: center;
     }
 
     /* Our Partners  Section*/

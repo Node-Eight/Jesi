@@ -416,7 +416,7 @@ nav .mainNav .closeMenu {
 }
 
 .cta {
-    width: 200px;
+    width: 250px;
     height: 60px;
     color: #ffffff;
     font-size: 1rem;
@@ -636,10 +636,7 @@ nav .mainNav .closeMenu {
 
 .why-choose-content-left .smHeadertxt {
     margin-top: 1rem;
-    /* margin-left: ; */
-
-
-
+    
 }
 
 .why-choose-content-left .headertxt {
