@@ -75,8 +75,6 @@
         background-size: cover;
         background-position: center;
         border-radius: 5px;
-        /* justify-content: center; */
-        /* align-items: center; */
         display: flex;
 
 
@@ -118,16 +116,19 @@
         text-align: center;
     }
 
-    .sm-hero button {
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sm-btn {
         margin-top: 2rem;
         width: 15rem;
         height: 56px;
         border-radius: 0.3rem;
         background: #FF7E84;
         color: #fff;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        align-items: center;
         border: none;
         font-size: 16px;
         font-weight: 500;
@@ -340,7 +341,7 @@
     }
 
     .why-choose-content-left .headertxt {
-        
+
         font-size: 18px;
         margin-top: 10px;
         text-align: center;
@@ -368,7 +369,8 @@
     .why-choose-content-right {
         display: none;
     }
-    .btn{
+
+    .btn {
         align-items: center;
         justify-content: center;
     }
