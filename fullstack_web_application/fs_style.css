@@ -72,14 +72,5 @@
 }
 
 .application-container {
-  width: 90%;
-}
-
-iframe {
-  width: 335px;
-}
-
-.application-container {
-  width: 95%;
-  margin: 0 auto;
+  width: 94%;
 }
