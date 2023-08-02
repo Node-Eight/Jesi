@@ -18,7 +18,7 @@
   font-size: 1.12rem;
   /* line-height: 1.625rem; */
   line-height: 2.5rem;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .fs_application_content > h1 {
@@ -46,4 +46,9 @@
 
 .banner-image {
   width: 100%;
+}
+
+.blog-reading{
+  text-align: justify;
+    
 }
