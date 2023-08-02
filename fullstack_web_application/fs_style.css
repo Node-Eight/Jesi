@@ -48,7 +48,27 @@
   width: 100%;
 }
 
-.blog-reading{
+.blog-reading {
   text-align: justify;
-    
+}
+
+.apply-btn {
+  width: 12rem;
+  /* margin: auto; */
+  height: 4rem;
+  color: #ffffff;
+  font-size: 1rem;
+  align-items: center;
+  border-radius: 10px;
+  background: var(--color-secondary);
+  border: none;
+  margin-bottom: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.apply-btn > a {
+  text-decoration: none;
+  width: 100%;
+  margin: 0 25%;
 }
