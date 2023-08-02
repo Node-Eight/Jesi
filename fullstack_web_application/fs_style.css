@@ -53,22 +53,20 @@
 }
 
 .apply-btn {
-  width: 12rem;
-  /* margin: auto; */
+  width: 14rem;
   height: 4rem;
   color: #ffffff;
   font-size: 1rem;
   align-items: center;
   border-radius: 10px;
-  background: #FF7E84;
+  background: #ff7e84;
   border: none;
   margin-bottom: 30px;
-  padding: 10px;
+  padding: 20px;
   cursor: pointer;
-}
-
-.apply-btn > a {
   text-decoration: none;
   width: 100%;
   margin: 0 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
