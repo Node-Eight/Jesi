@@ -553,13 +553,14 @@ nav .mainNav .closeMenu {
 }
 
 .smText {
-   
     width: 70%;
     color: var(--color-txtcolor);
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5rem;
     margin-top: 20px;
+
+
 }
 
 
@@ -636,7 +637,7 @@ nav .mainNav .closeMenu {
 
 .why-choose-content-left .smHeadertxt {
     margin-top: 1rem;
-    
+
 }
 
 .why-choose-content-left .headertxt {
@@ -770,7 +771,49 @@ nav .mainNav .closeMenu {
     margin-bottom: 20px;
 }
 
-.mainCard {
+
+.partner-Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-logos {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.partner-logos img {
+    height: 200px;
+    width: 200px;
+}
+
+
+.partner-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: -5px;
+}
+
+
+.partner-text p{
+    margin-top: -20px;
+    padding: 20px;
+    color: var(--color-txtcolor);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2rem;
+
+}
+
+/* .mainCard {
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -809,14 +852,9 @@ nav .mainNav .closeMenu {
     font-size: 24px;
     font-weight: 300;
     text-align: center;
-}
-
-/* .cardContainer .partner-text {
-    text-align: left;
-    font-size: 16px;
-    font-weight: 500;
-
 } */
+
+
 
 .apply-btn {
     width: 14rem;
