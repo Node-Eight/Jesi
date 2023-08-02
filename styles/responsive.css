@@ -202,7 +202,7 @@
         max-width: none;
     }
 
-    .cta {
+    .btn .cta {
         margin-left: auto;
         margin-right: auto;
         height: 56px;
