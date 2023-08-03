@@ -14,50 +14,52 @@
 
 <body>
   <nav>
-    <img class="brand-logo" src="./images/jesi logo.png" alt="Logo" />
+    <a href="#Hero"><img class="brand-logo" src="./images/jesi logo.png" alt="Logo" /></a>
     <div class="openMenu"><i class="fa fa-bars"></i></div>
     <ul class="mainNav">
       <li><a class="nav-active" href="./index.html">Home</a></li>
-      <li><a href="#">Course</a></li>
+      <li><a href="#courses">Course</a></li>
       <button class="signup-btn">Sign Up</button>
       <div class="closeMenu"><i class="fa fa-times"></i></div>
     </ul>
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero-bg">
+  <section id="Hero" class="hero-bg">
     <div class="hero">
-      <div class="content-left">
-        <h1 class="header-text">
-          Become a
-          <span class="animatedTxt"></span> in 12 months
-        </h1>
-        <div class="value-prop">
-          <h2>Learn in-demand skills and get connected to jobs in tech in 12 months
-          </h2>
-
-          <ul>
-            <li>Hands-On Training: Gain practical experience through project-based learning
-            </li>
-            <li>Supportive Community: Join a thriving tech community of learners and mentors
-            </li>
-            <li>Internship Opportunities: Access valuable internship experiences</li>
-            <li>Develop Soft Skills: Mater essential communication, ethics, and teamwork abilities</li>
-          </ul>
-
+      <div class="hero-content">
+        <div class="content-left">
+          <h1 class="header-text">
+            Become a <br>
+            <span class="animatedTxt"></span> <br> in 12 months
+          </h1>
+          <div class="value-prop">
+            <h2>Learn in-demand skills and get connected to jobs in tech in 12 months
+            </h2>
+  
+            <ul>
+              <li>Hands-On Training: Gain practical experience through project-based learning
+              </li>
+              <li>Supportive Community: Join a thriving tech community of learners and mentors
+              </li>
+              <li>Internship Opportunities: Access valuable internship experiences</li>
+              <li>Develop Soft Skills: Mater essential communication, ethics, and teamwork abilities</li>
+            </ul>
+  
+          </div>
+         <div class="btn-btn">
+          <a href="#courses"> <button class="getStarted-btn">Get Started</button></a>
+         </div>
         </div>
-       <div class="btn-btn">
-        <a href="#courses"> <button class="getStarted-btn">Get Started</button></a>
-       </div>
-      </div>
-      <div class="content-right">
-        <div class="imgContainer">
-          <img src="./images/heroimg.jpg" alt="./images/img-right.png" />
-          
+        <div class="content-right">
+          <div class="imgContainer">
+            <img src="./images/heroimg.jpg" alt="./images/img-right.png" />
+            
+          </div>
         </div>
       </div>
+
     </div>
-
     <div class="sm-hero">
       <div class="text-overlay">
         <div class="animated">
@@ -740,12 +742,12 @@
         </ul>
 
       </div>
-      <div class="col-4">
+      <!-- <div class="col-4">
         <h3 class="header-tags">Newsletter</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, architecto.</p>
         <input type="email" class="user-email" placeholder="Enter your email">
         <button class="subcribe-btn">Subscribe Now</button>
-      </div>
+      </div> -->
     </div>
     <p>&copy; 2023 Jesi. All rights reserved.</p>
   </footer>

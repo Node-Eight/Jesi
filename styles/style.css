@@ -119,6 +119,14 @@ nav .mainNav .closeMenu {
   );
 }
 
+.hero-content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+}
+
 .content-left {
   width: 80%;
   margin: 0 auto;
@@ -127,8 +135,12 @@ nav .mainNav .closeMenu {
 
 .header-text {
   color: var(--color-primary);
-  font-size: 34px;
+  /* font-size: 34px;
+  font-weight: 700; */
+
+  font-size: 64px;
   font-weight: 700;
+  line-height: 72px;
 }
 
 .header-text span {
@@ -178,16 +190,20 @@ nav .mainNav .closeMenu {
 .content-right {
   flex: 1;
   display: flex;
-  padding-top: -2rem;
+  /* padding-top: -2rem;
+   */
+  margin-left: 2rem;
   margin-left: 10rem;
   padding-right: 40px;
 }
 
 .imgContainer {
   position: relative;
-  width: 600px;
-  height: 600px;
-  border-radius: 50%;
+  /* width: 600px;
+  height: 600px; */
+  width: 550px;
+  height: 550px;
+  border-radius: 4%;
   overflow: hidden;
 }
 
@@ -1052,6 +1068,7 @@ footer {
 
 .footerContent .col-1 {
   flex-basis: 25%;
+  margin-left: 10%;
 }
 
 .footerContent .col-2,
