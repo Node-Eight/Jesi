@@ -942,17 +942,29 @@
 
   /*  Blog Section*/
   .our-blog {
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 5rem;
   }
-
+.our-blog .smHeadertxt {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
   .blog-bg {
-    height: 70rem;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .blogMain {
+    padding-top: 20px;
   }
 
   .all-blogs {
     justify-self: center;
     margin-left: 10px;
   }
+
+
 
   /* Footer Section */
   .footerContent {
@@ -989,4 +1001,7 @@
   footer p {
     font-size: 10px;
   }
+
+
+
 }
