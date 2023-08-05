@@ -175,7 +175,7 @@
   .courseCard .cardContainer {
     height: auto;
     /* width: 28rem; */
-  
+
   }
 
 
@@ -714,74 +714,75 @@
   }
 
   /* About Jesi Section */
-         .about-bg {
-           height: auto;
-           padding-bottom: 20px;
-         }
-    
-         .content-main {
-           margin-left: 20px;
-           margin-right: 20px;
-           align-items: center;
-    
-         }
-    
-         .about-content-left {
-           text-align: justify;
-           padding-left: -40px;
-           margin-left: -20px;
-         }
-    
-         .about-content-left .headertxt {
-           text-align: center;
-         }
-    
-         .about-content-left p {
-           font-size: 14px;
-           line-height: 1.5rem;
-    
-         }
-    
-         /* .our-mission img {
+  .about-bg {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .content-main {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+
+  }
+
+  .about-content-left {
+    text-align: justify;
+    padding-left: -40px;
+    margin-left: -20px;
+  }
+
+  .about-content-left .headertxt {
+    text-align: center;
+  }
+
+  .about-content-left p {
+    font-size: 14px;
+    line-height: 1.5rem;
+
+  }
+
+  /* .our-mission img {
             width: 30px;
             height: 30px;
         } */
-    
-         .smTitle {
-           font-size: 18px;
-         }
-    
-         .smText {
-           font-size: 14px;
-           text-align: justify;
-           width: 100%;
-    
-         }
-    
-         /* .our-vision img {
+
+  .smTitle {
+    font-size: 18px;
+  }
+
+  .smText {
+    font-size: 14px;
+    text-align: justify;
+    width: 100%;
+
+  }
+
+  /* .our-vision img {
             width: 30px;
             height: 30px;
         } */
-    
-         .btn {
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           position: relative;
-         }
-    
-         /* .btn .read-more {} */
-    
-         .about-content-right {
-           display: none;
-         }
-    
-         .firstImg img,
-         .secondImg img {
-           width: 300px;
-           height: 300px;
-         }
-/* 
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  /* .btn .read-more {} */
+
+  .about-content-right {
+    display: none;
+  }
+
+  .firstImg img,
+  .secondImg img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* 
   .about-bg {
     height: auto;
   }
@@ -834,79 +835,96 @@
   } */
 
   /* Why Choose Jesi */
-    .why-choose-bg {
-      height: auto;
-    }
-  
-    .why-choose {
-      margin-left: 20px;
-      margin-right: 20px;
-      align-items: center;
-    }
-  
-  
-  
-    .why-choose-content-left .headertxt {
-      text-align: center;
-      margin-top: 1rem;
-  
-    }
-  
-    .why-choose-content-left p {
-  
-      font-size: 14px;
-      line-height: 2rem;
-    }
-  
-    .why-prop li {
-      font-size: 14px;
-    }
-  
-    .why-choose-content-right {
-      display: none;
-      margin-top: -28rem;
-      margin-left: 20rem;
-    }
-  
-    .chooseImg img {
-      width: 250px;
-      height: 250px;
-    }
-  
-    .why-choose-content-right .tag1 {
-      width: 11rem;
-      height: 2rem;
-      margin-top: 10rem;
-      margin-left: 6rem;
-      /* margin-top: -10px; */
-    }
-  
-    .tag1 span,
-    .tag2 span,
-    .tag3 span {
-      font-size: 12px;
-    }
-  
-    .why-choose-content-right .tag2 {
-      width: 8rem;
-      height: 2rem;
-      margin-top: 14rem;
-      margin-left: 6rem;
-      /* margin-top: -10px; */
-    }
-  
-    .why-choose-content-right .tag3 {
-      width: 10rem;
-      height: 2rem;
-      margin-top: 18rem;
-      margin-left: 6rem;
-      /* margin-top: -10px; */
-    }
+  .why-choose-bg {
+    height: auto;
+  }
+
+  .why-choose {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+  }
+
+
+
+  .why-choose-content-left .headertxt {
+    text-align: center;
+    margin-top: 1rem;
+
+  }
+
+  .why-choose-content-left p {
+
+    font-size: 14px;
+    line-height: 2rem;
+  }
+
+  .why-prop li {
+    font-size: 14px;
+  }
+
+  .why-choose-content-right {
+    display: none;
+    margin-top: -28rem;
+    margin-left: 20rem;
+  }
+
+  .chooseImg img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .why-choose-content-right .tag1 {
+    width: 11rem;
+    height: 2rem;
+    margin-top: 10rem;
+    margin-left: 6rem;
+
+  }
+
+  .tag1 span,
+  .tag2 span,
+  .tag3 span {
+    font-size: 12px;
+  }
+
+  .why-choose-content-right .tag2 {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 14rem;
+    margin-left: 6rem;
+    /* margin-top: -10px; */
+  }
+
+  .why-choose-content-right .tag3 {
+    width: 10rem;
+    height: 2rem;
+    margin-top: 18rem;
+    margin-left: 6rem;
+    /* margin-top: -10px; */
+  }
 
 
   /* Partner Section */
+  .our-partners {
+    padding-top: 3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-top: 5rem; */
+  }
 
+  .partner-logos {
+    margin-top: -10px;
+  }
 
+  .partner-logos img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .partner-text {
+    width: 100%
+  }
 
 
 
