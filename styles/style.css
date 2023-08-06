@@ -749,18 +749,9 @@ nav .mainNav .closeMenu {
 }
 
 .partner-text {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 70px;
-  padding-right: 70px;
-  margin-top: -5px; */
-
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-left: 70px; */
-  /* padding-right: 70px; */
   width: 70%;
   margin: auto;
   margin-top: -5px;
