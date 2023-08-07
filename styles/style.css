@@ -225,9 +225,13 @@ nav .mainNav .closeMenu {
 /* Course Section */
 
 .courses {
-  margin-top: 5rem;
+  /* margin-top: 5rem;
   margin-left: 2rem;
-  margin-right: 2rem;
+  margin-right: 2rem; */
+
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 .smHeadertxt {
@@ -235,6 +239,7 @@ nav .mainNav .closeMenu {
   font-weight: 500;
   text-transform: uppercase;
   color: var(--color-tertiary);
+  margin-top: 40px;
 }
 
 .bgHeadertxt {
@@ -295,7 +300,7 @@ nav .mainNav .closeMenu {
   display: flex;
   flex: 1;
   flex-direction: row;
-  gap: 2rem;
+  gap: 4rem;
   margin-top: 3rem;
   justify-content: center;
 }
