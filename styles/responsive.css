@@ -1100,12 +1100,8 @@
 
 
   .about-content-left {
-    padding-left: 20px;
+    padding-left: 30px;
   }
-
-
-
-
 
   .about-content-right {
     padding-right: 30px;
@@ -1123,9 +1119,48 @@
     margin-left: -30rem;
   }
 
-/* Why Jesi */
+  /* Why Jesi */
+
+  .why-choose {
+    width: 100%;
+
+  }
+
+  .why-prop ul {
+    padding-left: 30px;
+  }
+
+  .why-choose-content-left {
+    padding-left: 30px;
+  }
+
+  .why-choose-content-left p {
+    /* width: 100%; */
+  }
+
+  .why-prop {
+    margin-top: 3rem;
+  }
+
+  /* .tag1,.tag2,.tag3 {
+    display: none;
+  } */
 
 
+
+  .why-choose-content-right {
+    padding-right: 30px;
+  }
+
+  .chooseImg {
+    margin-top: 10rem;
+  }
+
+  .chooseImg img {
+    width: 400px;
+    margin: auto;
+
+  }
 
 
 
