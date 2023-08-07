@@ -601,12 +601,12 @@ nav .mainNav .closeMenu {
 
 /* ================= Why Choose SkillsLift================ */
 
-.why-choose-bg {
+/* .why-choose-bg {
   width: 100%;
   height: 50rem;
-  /* background: rgba(248, 235, 207, 0.35); */
+  
   overflow: hidden;
-}
+} */
 
 .why-choose {
   display: flex;
@@ -618,8 +618,9 @@ nav .mainNav .closeMenu {
 /* why-choose-content-left */
 
 .why-choose-content-left {
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   position: relative;
+  padding-left: 40px;
 }
 
 .why-choose-content-left .smHeadertxt {
@@ -643,6 +644,7 @@ nav .mainNav .closeMenu {
 
 .why-prop {
   margin-top: 5px;
+  width: 90%;
 }
 
 .why-prop ul {
@@ -743,7 +745,7 @@ nav .mainNav .closeMenu {
 
 /* Our-Partner Section */
 .our-partners {
-  margin-top: 3rem;
+  margin-top: 5rem;
   text-align: center;
   margin-bottom: 20px;
   background: linear-gradient(
