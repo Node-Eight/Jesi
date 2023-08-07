@@ -1082,18 +1082,48 @@
   .bgHeadertxt {
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
   }
 
   .courseCard {
-    margin-left: 20px;
-    margin-right: 20px;
     flex-wrap: wrap;
-    
   }
 
-  
+
+  /* About Section */
+  .content-main {
+    width: 100%;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+  }
+
+
+  .about-content-left {
+    padding-left: 20px;
+  }
+
+
+
+
+
+  .about-content-right {
+    padding-right: 30px;
+
+  }
+
+
+  .about-content-right .firstImg img {
+    width: 350px;
+    margin-left: 10rem;
+  }
+
+  .about-content-right .secondImg img {
+    width: 350px;
+    margin-left: -30rem;
+  }
+
+/* Why Jesi */
 
 
 

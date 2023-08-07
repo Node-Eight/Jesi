@@ -579,7 +579,7 @@ nav .mainNav .closeMenu {
   padding-right: 40px;
 }
 
-.firstImg img {
+.about-content-right .firstImg img {
   margin-top: 9rem;
   margin-left: 8rem;
   width: 30rem;
@@ -589,12 +589,13 @@ nav .mainNav .closeMenu {
   object-position: center;
 }
 
-.secondImg img {
+.about-content-right .secondImg img {
   margin-top: 25rem;
   margin-left: -45rem;
   width: 30rem;
   height: 20rem;
   border-radius: 0.6rem;
+  
 }
 
 /* ================= Why Choose SkillsLift================ */
