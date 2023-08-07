@@ -207,6 +207,8 @@
 
   .content-main {
     align-items: center;
+
+
   }
 
   .about-content-left {
@@ -531,7 +533,7 @@
 
   .col-1 .socialMedia {
     align-items: center;
-    
+
   }
 
   .footerContent .col-2,
@@ -997,10 +999,10 @@
 
   .footerContent .col-1 {
     margin-bottom: 30px;
-   
+
   }
 
-  
+
   .footerContent .col-3 {
     flex-basis: 20%;
     margin-bottom: 20px;
@@ -1027,6 +1029,104 @@
   footer p {
     font-size: 10px;
   }
+
+
+
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+
+  /* Hero */
+  .hero {
+    height: auto;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .content-left {
+    padding-left: 20px;
+  }
+
+  .header-text {
+    font-size: 54px;
+  }
+
+  .value-prop {
+    margin-top: 20px;
+  }
+
+
+  .btn-btn .getStarted-btn {
+    margin: 30px auto;
+  }
+
+  .content-right {
+
+    padding-right: 20px;
+  }
+
+  .imgContainer {
+    margin-top: 30px;
+    width: 400px;
+  }
+
+
+
+  /* Course Section */
+  .courses {
+    width: 100%;
+  }
+
+  .bgHeadertxt {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .courseCard {
+    flex-wrap: wrap;
+  }
+
+
+  /* About Section */
+  .content-main {
+    width: 100%;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+  }
+
+
+  .about-content-left {
+    padding-left: 20px;
+  }
+
+
+
+
+
+  .about-content-right {
+    padding-right: 30px;
+
+  }
+
+
+  .about-content-right .firstImg img {
+    width: 350px;
+    margin-left: 10rem;
+  }
+
+  .about-content-right .secondImg img {
+    width: 350px;
+    margin-left: -30rem;
+  }
+
+/* Why Jesi */
+
+
+
 
 
 
