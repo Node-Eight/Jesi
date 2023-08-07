@@ -123,6 +123,7 @@ nav .mainNav .closeMenu {
     rgba(255, 126, 132, 0.15) 0%,
     rgba(48, 190, 173, 0.15) 100%
   );
+  padding-bottom: 50px;
 }
 
 .hero-content {
@@ -253,7 +254,7 @@ nav .mainNav .closeMenu {
 }
 
 .headertxt {
-  font-size: 34px;
+  font-size: 48px;
 }
 
 .headertxt span {
