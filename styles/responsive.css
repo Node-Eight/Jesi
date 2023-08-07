@@ -526,10 +526,12 @@
   .footerContent .col-1 {
     flex-basis: auto;
     margin-bottom: 30px;
+    align-items: center;
   }
 
   .col-1 .socialMedia {
-    margin-left: 5rem;
+    align-items: center;
+    
   }
 
   .footerContent .col-2,
@@ -872,7 +874,7 @@
 
   .why-prop li {
     font-size: 14px;
-    
+
   }
 
   .why-choose-content-right {
@@ -992,10 +994,13 @@
     flex-direction: row;
   }
 
+
   .footerContent .col-1 {
     margin-bottom: 30px;
+   
   }
 
+  
   .footerContent .col-3 {
     flex-basis: 20%;
     margin-bottom: 20px;
@@ -1017,6 +1022,7 @@
     flex-basis: auto;
     margin-left: 5rem;
   }
+
 
   footer p {
     font-size: 10px;
