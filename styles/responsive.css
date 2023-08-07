@@ -1182,6 +1182,32 @@
 
   }
 
+/* Our Partner Section */
+
+.our-partners{
+  margin: 20px auto;
+}
+
+
+
+.partner-logos{
+  /* margin-top: 5px; */
+}
+.partner-text{
+  width: 100%;
+}
+
+
+
+
+
+
+/* Blog Section  */
+blogMain {
+  flex-wrap: wrap;
+}
+
+
 
 
 
