@@ -1136,10 +1136,12 @@
 
   .why-choose-content-left p {
     /* width: 100%; */
+    width: 80%;
   }
 
   .why-prop {
     margin-top: 3rem;
+    padding-right: 30px;
   }
 
   /* .tag1,.tag2,.tag3 {
@@ -1152,13 +1154,31 @@
     padding-right: 30px;
   }
 
+  .why-choose-content-right .tag1 {
+    margin-top: 25rem;
+    margin-left: -5rem;
+  }
+
+  .why-choose-content-right .tag2 {
+    margin-top: 32rem;
+    margin-left: -4rem;
+  }
+
+  .why-choose-content-right .tag3 {
+    margin-top: 40rem;
+    margin-left: -2rem;
+  }
+
   .chooseImg {
-    margin-top: 10rem;
+ position: relative;
+    margin-top: 17rem;
   }
 
   .chooseImg img {
-    width: 400px;
+    width: 450px;
+    height: 38rem;
     margin: auto;
+      border-radius: 0.3rem;
 
   }
 
