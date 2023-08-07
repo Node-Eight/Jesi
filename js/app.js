@@ -44,7 +44,7 @@ showContent(0);
 
 // Animated Text
 var type = new Typed(".animatedTxt", {
-  strings: ["Software Engineer", "Product Designer", "Digital Marketer"],
+  strings: ["Software Developer", "Product Designer", "Digital Marketer"],
   typeSpeed: 150,
   backSpeed: 150,
   loop: true,
@@ -52,7 +52,7 @@ var type = new Typed(".animatedTxt", {
 
 // Animated text for small screen
 let smtype = new Typed(".sm-animatedTxt", {
-  strings: ["Software Engineer", "Product Designer", "Digital Marketer"],
+  strings: ["Software Developer", "Product Designer", "Digital Marketer"],
   typeSpeed: 150,
   backSpeed: 150,
   loop: true,
