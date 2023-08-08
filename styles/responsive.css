@@ -207,6 +207,8 @@
 
   .content-main {
     align-items: center;
+    margin: 20px auto;
+    width: 100%;
 
 
   }
@@ -307,17 +309,18 @@
   }
 
   /* ====== Why Choose Us Section ===== */
-  .why-choose-bg {
+  /* .why-choose-bg {
     height: auto;
-  }
+  } */
 
   .why-choose {
-    display: block;
+    /* display: block; */
     padding-right: 10px;
+    width: 100%;
   }
 
   .why-choose-content-left {
-    margin-left: 20px;
+   padding-left: 20px;
   }
 
   .why-choose-content-left .headertxt {
@@ -346,6 +349,7 @@
 
   .why-choose-content-right {
     display: none;
+    padding-right: 20px;
   }
 
   .btn {
@@ -1170,7 +1174,7 @@
   }
 
   .chooseImg {
- position: relative;
+    position: relative;
     margin-top: 17rem;
   }
 
@@ -1178,34 +1182,35 @@
     width: 450px;
     height: 38rem;
     margin: auto;
-      border-radius: 0.3rem;
+    border-radius: 0.3rem;
 
   }
 
-/* Our Partner Section */
+  /* Our Partner Section */
 
-.our-partners{
-  margin: 20px auto;
-}
-
-
-
-.partner-logos{
-  /* margin-top: 5px; */
-}
-.partner-text{
-  width: 100%;
-}
+  .our-partners {
+    margin: 20px auto;
+  }
 
 
 
+  .partner-logos {
+    /* margin-top: 5px; */
+  }
+
+  .partner-text {
+    width: 100%;
+  }
 
 
 
-/* Blog Section  */
-blogMain {
-  flex-wrap: wrap;
-}
+
+
+
+  /* Blog Section  */
+  blogMain {
+    flex-wrap: wrap;
+  }
 
 
 
