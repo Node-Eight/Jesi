@@ -19,6 +19,8 @@
   /* line-height: 1.625rem; */
   line-height: 2.5rem;
   /* text-align: justify; */
+  /* height: 100%; */
+  margin-bottom: 60px;
 }
 
 .fs_application_content > h1 {
