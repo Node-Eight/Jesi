@@ -1,7 +1,6 @@
 /* ================= Responsiveness ================= */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
   /* Nav Bar */
   nav {
     display: flex;
@@ -175,10 +174,7 @@
   .courseCard .cardContainer {
     height: auto;
     /* width: 28rem; */
-
   }
-
-
 
   .courseCard .cardContainer-sm {
     height: 32rem;
@@ -209,8 +205,6 @@
     align-items: center;
     margin: 20px auto;
     width: 100%;
-
-
   }
 
   .about-content-left {
@@ -320,7 +314,7 @@
   }
 
   .why-choose-content-left {
-   padding-left: 20px;
+    padding-left: 20px;
   }
 
   .why-choose-content-left .headertxt {
@@ -537,7 +531,6 @@
 
   .col-1 .socialMedia {
     align-items: center;
-
   }
 
   .footerContent .col-2,
@@ -566,10 +559,7 @@
   }
 }
 
-
-
 @media (min-width: 481px) and (max-width: 768px) {
-
   /* Nav Bar */
   nav {
     display: flex;
@@ -742,7 +732,6 @@
     margin-left: 20px;
     margin-right: 20px;
     align-items: center;
-
   }
 
   .about-content-left {
@@ -758,7 +747,6 @@
   .about-content-left p {
     font-size: 14px;
     line-height: 1.5rem;
-
   }
 
   /* .our-mission img {
@@ -774,7 +762,6 @@
     font-size: 14px;
     text-align: justify;
     width: 100%;
-
   }
 
   /* .our-vision img {
@@ -864,23 +851,18 @@
     align-items: center;
   }
 
-
-
   .why-choose-content-left .headertxt {
     text-align: center;
     margin-top: 1rem;
-
   }
 
   .why-choose-content-left p {
-
     font-size: 14px;
     line-height: 2rem;
   }
 
   .why-prop li {
     font-size: 14px;
-
   }
 
   .why-choose-content-right {
@@ -899,7 +881,6 @@
     height: 2rem;
     margin-top: 10rem;
     margin-left: 6rem;
-
   }
 
   .tag1 span,
@@ -924,7 +905,6 @@
     /* margin-top: -10px; */
   }
 
-
   /* Partner Section */
   .our-partners {
     padding-top: 3rem;
@@ -943,12 +923,8 @@
   }
 
   .partner-text {
-    width: 100%
+    width: 100%;
   }
-
-
-
-
 
   /* Event Section */
   /* .smHeadertxt {
@@ -992,20 +968,15 @@
     padding-bottom: 20px;
   }
 
-
-
   /* Footer Section */
   .footerContent {
     flex-wrap: wrap;
     flex-direction: row;
   }
 
-
   .footerContent .col-1 {
     margin-bottom: 30px;
-
   }
-
 
   .footerContent .col-3 {
     flex-basis: 20%;
@@ -1029,17 +1000,12 @@
     margin-left: 5rem;
   }
 
-
   footer p {
     font-size: 10px;
   }
-
-
-
 }
 
-@media (min-width:769px) and (max-width: 1024px) {
-
+@media (min-width: 769px) and (max-width: 1024px) {
   /* Hero */
   .hero {
     height: auto;
@@ -1061,13 +1027,11 @@
     margin-top: 20px;
   }
 
-
   .btn-btn .getStarted-btn {
     margin: 30px auto;
   }
 
   .content-right {
-
     padding-right: 20px;
   }
 
@@ -1075,8 +1039,6 @@
     margin-top: 30px;
     width: 400px;
   }
-
-
 
   /* Course Section */
   .courses {
@@ -1094,7 +1056,6 @@
     flex-wrap: wrap;
   }
 
-
   /* About Section */
   .content-main {
     width: 100%;
@@ -1102,16 +1063,13 @@
     margin-right: 20px; */
   }
 
-
   .about-content-left {
     padding-left: 30px;
   }
 
   .about-content-right {
     padding-right: 30px;
-
   }
-
 
   .about-content-right .firstImg img {
     width: 350px;
@@ -1127,7 +1085,6 @@
 
   .why-choose {
     width: 100%;
-
   }
 
   .why-prop ul {
@@ -1151,8 +1108,6 @@
   /* .tag1,.tag2,.tag3 {
     display: none;
   } */
-
-
 
   .why-choose-content-right {
     padding-right: 30px;
@@ -1183,7 +1138,6 @@
     height: 38rem;
     margin: auto;
     border-radius: 0.3rem;
-
   }
 
   /* Our Partner Section */
@@ -1191,8 +1145,6 @@
   .our-partners {
     margin: 20px auto;
   }
-
-
 
   .partner-logos {
     /* margin-top: 5px; */
@@ -1202,18 +1154,47 @@
     width: 100%;
   }
 
-
-
-
-
-
   /* Blog Section  */
   blogMain {
     flex-wrap: wrap;
   }
+}
 
+/* for the application button: do not touch */
 
-
-
-
+/* Mobile */
+@media (max-width: 480px) {
+  .link-for-big {
+    display: none;
+  }
+}
+/* Extra small devices */
+@media (min-width: 481px) and (max-width: 768px) {
+  .link-for-big {
+    display: none;
+  }
+}
+/* Small tablets */
+@media (min-width: 769px) and (max-width: 991px) {
+  .link-for-small {
+    display: none;
+  }
+}
+/* Large tablets/laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .link-for-small {
+    display: none;
+  }
+}
+/* Desktops */
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .link-for-small {
+    display: none;
+  }
+}
+/* Extra large screens */
+@media (min-width: 1920px) {
+  .link-for-small {
+    display: none;
+  }
 }
