@@ -1,6 +1,7 @@
 /* ================= Responsiveness ================= */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
   /* Nav Bar */
   nav {
     display: flex;
@@ -208,6 +209,7 @@
   }
 
   .about-content-left {
+    width: 100%;
     padding-left: 15px;
   }
 
@@ -560,6 +562,7 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+
   /* Nav Bar */
   nav {
     display: flex;
@@ -732,9 +735,11 @@
     margin-left: 20px;
     margin-right: 20px;
     align-items: center;
+
   }
 
   .about-content-left {
+    width: 100%;
     text-align: justify;
     padding-left: -40px;
     margin-left: -20px;
@@ -1006,6 +1011,7 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+
   /* Hero */
   .hero {
     height: auto;
@@ -1065,13 +1071,40 @@
 
   .about-content-left {
     padding-left: 30px;
+    width: 80%;
+
+
   }
 
   .about-content-right {
-    padding-right: 30px;
+    /* padding-right: 30px; */
+    padding-left: 2rem;
+    margin-right: 8rem;
   }
 
-  .about-content-right .firstImg img {
+  .firstImg {
+    width: 350px;
+    height: 350px;
+    margin-top: 12rem;
+    margin-left: 8rem;
+  }
+
+  .firstImg img{
+    width: 350px;
+  }
+
+  .secondImg {
+    width: 350px;
+    height: 350px;
+    margin-left: -30rem;
+  }
+    .secondImg img{
+      width: 350px;
+    }
+
+
+
+  /* .about-content-right .firstImg img {
     width: 350px;
     margin-left: 10rem;
   }
@@ -1079,7 +1112,7 @@
   .about-content-right .secondImg img {
     width: 350px;
     margin-left: -30rem;
-  }
+  } */
 
   /* Why Jesi */
 
@@ -1146,7 +1179,7 @@
     margin: 20px auto;
   }
 
- 
+
   .partner-text {
     width: 100%;
   }
@@ -1165,30 +1198,35 @@
     display: none;
   }
 }
+
 /* Extra small devices */
 @media (min-width: 481px) and (max-width: 768px) {
   .link-for-big {
     display: none;
   }
 }
+
 /* Small tablets */
 @media (min-width: 769px) and (max-width: 991px) {
   .link-for-small {
     display: none;
   }
 }
+
 /* Large tablets/laptops */
 @media (min-width: 992px) and (max-width: 1199px) {
   .link-for-small {
     display: none;
   }
 }
+
 /* Desktops */
 @media (min-width: 1200px) and (max-width: 1919px) {
   .link-for-small {
     display: none;
   }
 }
+
 /* Extra large screens */
 @media (min-width: 1920px) {
   .link-for-small {
