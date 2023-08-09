@@ -1179,7 +1179,6 @@
     margin: 20px auto;
   }
 
-
   .partner-text {
     width: 100%;
   }
@@ -1192,7 +1191,7 @@
 
 /* for the application button: do not touch */
 
-/* Mobile */
+/* Mobile
 @media (max-width: 480px) {
   .link-for-big {
     display: none;
@@ -1200,36 +1199,93 @@
 }
 
 /* Extra small devices */
+/* @media (min-width: 481px) and (max-width: 768px) {
+  .link-for-big {
+    display: none;
+  }
+} */
+/* Small tablets */
+/* @media (min-width: 769px) and (max-width: 991px) {
+  .link-for-small {
+    display: none;
+  }
+} */
+/* Large tablets/laptops */
+/* @media (min-width: 992px) and (max-width: 1199px) {
+  .link-for-small {
+    display: none;
+  }
+} */
+/* Desktops */
+/* @media (min-width: 1200px) and (max-width: 1919px) {
+  .link-for-small {
+    display: none;
+  }
+} */
+/* Extra large screens */
+/* @media (min-width: 1920px) {
+  .link-for-small {
+    display: none;
+  }
+}  */
+
+
+
+
+
+
+/* 
+  ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .link-for-small {
+    display: none;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .link-for-small {
+    display: none;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .link-for-small {
+    display: none;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+  .link-for-small {
+    display: none;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+ ##Screen = B/w 481px to 767px
+*/
 @media (min-width: 481px) and (max-width: 768px) {
   .link-for-big {
     display: none;
   }
 }
 
-/* Small tablets */
-@media (min-width: 769px) and (max-width: 991px) {
-  .link-for-small {
-    display: none;
-  }
-}
-
-/* Large tablets/laptops */
-@media (min-width: 992px) and (max-width: 1199px) {
-  .link-for-small {
-    display: none;
-  }
-}
-
-/* Desktops */
-@media (min-width: 1200px) and (max-width: 1919px) {
-  .link-for-small {
-    display: none;
-  }
-}
-
-/* Extra large screens */
-@media (min-width: 1920px) {
-  .link-for-small {
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .link-for-big {
     display: none;
   }
 }
