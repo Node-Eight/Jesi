@@ -118,11 +118,9 @@ nav .mainNav .closeMenu {
   display: flex;
   align-items: center;
   padding-top: 2rem;
-  background: linear-gradient(
-    315deg,
-    rgba(255, 126, 132, 0.15) 0%,
-    rgba(48, 190, 173, 0.15) 100%
-  );
+  background: linear-gradient(315deg,
+      rgba(255, 126, 132, 0.15) 0%,
+      rgba(48, 190, 173, 0.15) 100%);
   padding-bottom: 50px;
 }
 
@@ -234,7 +232,7 @@ nav .mainNav .closeMenu {
 
   width: 90%;
   margin: auto;
-  text-align: center;
+  /* text-align: center; */
   padding: 30px 0;
 }
 
@@ -244,6 +242,7 @@ nav .mainNav .closeMenu {
   text-transform: uppercase;
   color: var(--color-tertiary);
   margin-top: 40px;
+  /* text-align: left; */
 }
 
 .bgHeadertxt {
@@ -441,11 +440,9 @@ nav .mainNav .closeMenu {
   ); */
   margin-top: 2rem;
   padding-bottom: 30px;
-  background: linear-gradient(
-    315deg,
-    rgba(255, 126, 132, 0.15) 0%,
-    rgba(48, 190, 173, 0.15) 100%
-  );
+  background: linear-gradient(315deg,
+      rgba(255, 126, 132, 0.15) 0%,
+      rgba(48, 190, 173, 0.15) 100%);
 }
 
 .content-main {
@@ -596,7 +593,7 @@ nav .mainNav .closeMenu {
   width: 30rem;
   height: 20rem;
   border-radius: 0.6rem;
-  
+
 }
 
 /* ================= Why Choose SkillsLift================ */
@@ -748,11 +745,9 @@ nav .mainNav .closeMenu {
   margin-top: 5rem;
   text-align: center;
   margin-bottom: 20px;
-  background: linear-gradient(
-    315deg,
-    rgba(255, 126, 132, 0.15) 0%,
-    rgba(48, 190, 173, 0.15) 100%
-  );
+  background: linear-gradient(315deg,
+      rgba(255, 126, 132, 0.15) 0%,
+      rgba(48, 190, 173, 0.15) 100%);
   padding: 60px 0;
 }
 
