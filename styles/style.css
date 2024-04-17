@@ -8,7 +8,8 @@
 
 :root {
   --color-primary: #1c2e3d;
-  --color-secondary: #ff7e84;
+  /* --color-secondary: #ff7e84; */
+  --color-secondary: #FF7900;
   --color-tertiary: #30bead;
   --color-txtcolor: #1c2e3d80;
 }
@@ -48,6 +49,7 @@ nav .mainNav {
   margin-right: 3rem;
   padding-top: 1rem;
   padding-bottom: 0.8rem;
+  margin-right: 70px;
 }
 
 nav .mainNav li {
@@ -99,7 +101,7 @@ nav .mainNav .closeMenu {
   width: 9rem;
   height: 3rem;
   border-radius: 5px;
-  background: #ff7e84;
+  background: var(--color-secondary);
   font-size: 1rem;
   color: #ffffff;
   border: none;
