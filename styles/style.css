@@ -34,7 +34,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1%;
+  padding: 0 6%;
 }
 
 nav img {
@@ -211,7 +211,7 @@ nav .mainNav .closeMenu {
   height: 600px; */
   width: 550px;
   height: 550px;
-  border-radius: 4%;
+  border-radius: 50%;
   overflow: hidden;
 }
 
