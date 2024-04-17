@@ -9,9 +9,10 @@
 :root {
   --color-primary: #1c2e3d;
   /* --color-secondary: #ff7e84; */
-  --color-secondary: #FF7900;
+  --color-secondary: #ff7900;
   --color-tertiary: #30bead;
   --color-txtcolor: #1c2e3d80;
+  --color-textcolor2: #4d4d4d;
 }
 
 body {
@@ -57,7 +58,7 @@ nav .mainNav li {
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 16px;
   transition: 0.2s ease;
 }
 
@@ -65,8 +66,9 @@ nav .mainNav li a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: var(--color-txtcolor);
-  font-size: 18px;
+  color: var(--color-textcolor2);
+  font-size: 15px;
+  font-weight: bold;
   text-transform: uppercase;
   margin-right: 30px;
 }
@@ -120,11 +122,11 @@ nav .mainNav .closeMenu {
   display: flex;
   align-items: center;
   padding-top: 2rem;
-  background: linear-gradient(
+  /* background: linear-gradient(
     315deg,
     rgba(255, 126, 132, 0.15) 0%,
     rgba(48, 190, 173, 0.15) 100%
-  );
+  ); */
   padding-bottom: 50px;
 }
 
